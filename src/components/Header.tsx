@@ -5,7 +5,12 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div>Header</div>
+    <header>
+      <button>Show New Random Cover</button>
+      <button>Save Cover</button>
+      <button>Show Saved Covers</button>
+      <button>Make Your Own Cover</button>
+    </header>
   )
 }
 
