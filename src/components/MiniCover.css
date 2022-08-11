@@ -1,0 +1,40 @@
+.mini-cover {
+  height: 40vh;
+  width: calc(40vh / 1.5);
+  position: relative;
+  gap: 1rem;
+  box-shadow: 0 0 10px black;
+}
+
+.mini-img {
+  position: absolute;
+  height: 40vh;
+  width: calc(40vh / 1.5);
+}
+
+.mini-title {
+  position: absolute;
+  bottom: 8vh;
+  font-family: 'Dancing Script', cursive;
+  color: var(--cover-text);
+  text-align: center;
+  font-size: 2rem;
+  width: calc(40vh / 1.5);
+}
+
+.mini-description {
+  position: absolute;
+  background-color: #653278ae;
+  width: calc(40vh / 1.5);
+  text-align: center;
+  color: var(--cover-text);
+  bottom: 1vh;
+}
+
+.mini-delete {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  border: none;
+}
