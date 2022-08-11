@@ -1,34 +1,38 @@
 main {
   width: 100vw;
   height: 90vh;
-  background-color: var(--bg-color);
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.cover {
+  height: 70vh;
+  position: relative;
+  top: 5vh;
 }
 
 .cover > img {
   height: 70vh;
   width: calc(70vh / 1.5);
-  position: absolute;
-  top: 20vh;
   object-fit: cover;
+  box-shadow: 0 0 10px black;
 }
 
 .cover > h1 {
-  position: relative;
+  position: absolute;
   color: var(--cover-text);
   width: calc(70vh / 1.5);
-  margin-bottom: 45vh;
   text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 3.5rem;
+  bottom: 10vh;
 }
 
 .cover > p {
-  position: relative;
+  position: absolute;
   background-color: #653278ae;
   width: calc(70vh / 1.5);
   text-align: center;
   color: var(--cover-text);
+  bottom: 1vh;
 }
